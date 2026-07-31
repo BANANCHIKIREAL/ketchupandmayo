@@ -7,9 +7,9 @@ const RECORDINGS = [
     id: "bananchikireal",
     label: "BANANCHIKIREAL POV",
     description: "Запись от автора сайта",
-    duration: "06:50",
+    duration: "06:23",
     poster: "/media/eon-bananchikireal-pov.jpg",
-    src: "/media/eon-bananchikireal-pov.mp4",
+    src: "https://github.com/BANANCHIKIREAL/eon-fan-site-media/releases/download/v1-eon-recordings/eon-bananchikireal-pov.mp4",
     orientation: "landscape",
   },
   {
@@ -18,7 +18,7 @@ const RECORDINGS = [
     description: "Запись со стрима nahbro003",
     duration: "07:37",
     poster: "/media/eon-stream-pov.jpg",
-    src: "/media/eon-stream-pov.mp4",
+    src: "https://github.com/BANANCHIKIREAL/eon-fan-site-media/releases/download/v1-eon-recordings/eon-stream-pov.mp4",
     orientation: "portrait",
   },
 ];

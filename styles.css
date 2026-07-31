@@ -1393,6 +1393,18 @@ img {
   min-height: 0;
   object-fit: contain;
   background: #000;
+  color-scheme: dark;
+}
+
+.recording-player video::-webkit-media-controls-play-button,
+.recording-player video::-webkit-media-controls-mute-button,
+.recording-player video::-webkit-media-controls-fullscreen-button {
+  filter: invert(1) brightness(2) !important;
+  color: #fff !important;
+}
+
+.recording-player video::-webkit-media-controls-overflow-button {
+  background: #fff !important;
 }
 
 .recording-player-portrait video {
