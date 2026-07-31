@@ -1,0 +1,24 @@
+{
+  "name": "ketchupandmayo-eon-fan-site",
+  "version": "1.4.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build && node scripts/copy-hosting.mjs",
+    "build:vercel": "vite build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitro": "^3.0.260610-beta",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-server-dom-webpack": "19.2.8",
+    "vinext": "1.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.4",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "vite": "8.1.5"
+  }
+}
