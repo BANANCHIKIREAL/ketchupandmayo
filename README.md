@@ -1,6 +1,6 @@
-# ketchupandmayo — EON Fan Site
+# ketchupandmayo — Fan Site
 
-A live progress tracker and fan site for **ketchupandmayo**, a Geometry Dash player chasing the extreme demon **EON** — currently sitting at **99.90%**, one triple-spike away from the finish.
+A fan site for **ketchupandmayo**, a Geometry Dash player and streamer — tracking his live run progress, current target **EON** (**99.90%**, one triple-spike away from the finish), and his cleared demon list.
 
 **Live:** [ketchupandmayo.vercel.app](https://ketchupandmayo.vercel.app)
 
