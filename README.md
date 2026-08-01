@@ -112,4 +112,9 @@ npm run build:vercel   # vite build, for Vercel's build pipeline
 
 made with 🖤 by <a href="https://www.tiktok.com/@bananchikireal">BANANCHIKIREAL</a> · see you at <b>100%</b>
 
+[![GitHub](https://img.shields.io/badge/GitHub-ketchupandmayo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BANANCHIKIREAL/ketchupandmayo)
+[![TikTok](https://img.shields.io/badge/TikTok-%40bananchikireal-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@bananchikireal)
+[![Telegram](https://img.shields.io/badge/Telegram-BANANCHIKIREALTG-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/BANANCHIKIREALTG)
+![Discord](https://img.shields.io/badge/Discord-bananchikireal-5865F2?style=flat-square&logo=discord&logoColor=white)
+
 </div>
