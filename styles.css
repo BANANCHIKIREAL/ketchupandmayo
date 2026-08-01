@@ -1910,6 +1910,23 @@ footer > a:hover {
   color: var(--paper);
 }
 
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-top: 4px;
+}
+
+.footer-social a,
+.footer-social span {
+  color: var(--dim);
+  transition: color 0.2s ease;
+}
+
+.footer-social a:hover {
+  color: var(--acid);
+}
+
 .reveal {
   opacity: 1;
   transform: none;
