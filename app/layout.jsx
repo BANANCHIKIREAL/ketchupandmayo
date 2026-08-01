@@ -4,11 +4,28 @@ import { LEVELS } from "./site-data";
 
 const currentRun = LEVELS[0];
 const currentProgress = currentRun.progress.toFixed(currentRun.decimals);
+const title = `ketchupandmayo — ${currentProgress}% on ${currentRun.title.join("")}`;
+const description = `Фан-сайт Geometry Dash игрока ketchupandmayo — Bloodbath пройден и ${currentProgress}% на EON.`;
 
 export const metadata = {
-  title: `ketchupandmayo — ${currentProgress}% on ${currentRun.title.join("")}`,
-  description:
-    `Фан-сайт Geometry Dash игрока ketchupandmayo — Bloodbath пройден и ${currentProgress}% на EON.`,
+  metadataBase: new URL("https://ketchupandmayo.vercel.app"),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: "/",
+    siteName: "ketchupandmayo",
+    images: [{ url: "/og-image.png", width: 1896, height: 1199 }],
+    locale: "ru_RU",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
