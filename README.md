@@ -10,24 +10,69 @@
 [![ketchupandmayo TikTok](https://img.shields.io/badge/TikTok-%40nahbro003-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@nahbro003)
 [![GDBrowser Profile](https://img.shields.io/badge/GDBrowser-ketchupandmayo-2dd4bf?style=for-the-badge&logoColor=white)](https://gdbrowser.com/u/ketchupandmayo)
 
+[![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Nitro](https://img.shields.io/badge/Nitro-16171A?style=flat-square&logo=nuxt&logoColor=00DC82)](https://nitro.build/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+
 </div>
 
 ---
 
 ## 📼 About
 
-A tribute to **ketchupandmayo**'s grind — live stats pulled straight from his Geometry Dash profile, a trophy case of cleared extreme demons, and a front-row seat to his current run: **EON**, sitting at **99.90%**.
+A tribute to **ketchupandmayo**'s grind — live stats pulled straight from his Geometry Dash profile, a trophy case of cleared extreme demons, and a front-row seat to his current run.
 
 Built and maintained by a fan, [**@bananchikireal**](https://www.tiktok.com/@bananchikireal).
+
+## 🎯 Current run — EON
+
+```
+█████████████████████████████████████░  99.90%
+```
+
+Dead on the triple-spike, **0.10%** from the finish. [Watch the recordings ↗](https://ketchupandmayo.vercel.app/#run)
+
+## 🏅 Demonlist
+
+| Level | Difficulty | Progress |
+|---|---|---|
+| [**EON**](https://gdbrowser.com/101478916) | Extreme Demon | 🟡 `99.90%` — in progress |
+| [**Zodiac**](https://gdbrowser.com/52374843) | Extreme Demon | ⚪ `10.43%` — next up |
+| [**Bloodbath**](https://gdbrowser.com/10565740) | Extreme Demon | ✅ `100%` |
+| [**ACU**](https://gdbrowser.com/61079355) | Extreme Demon | ✅ `100%` |
+| [**Cataclysm**](https://gdbrowser.com/3979721) | Extreme Demon | ✅ `100%` |
+| [**Denouement**](https://gdbrowser.com/60619762) | Insane Demon | ✅ `100%` |
 
 ## ✨ Features
 
 | | |
 |---|---|
 | 🏆 **Live GD profile** | Stats, stars, moons, demons, and icon set pulled live from [GDBrowser](https://gdbrowser.com/u/ketchupandmayo) |
-| 🎯 **Run tracker** | Current attempt (EON), next target (Zodiac), and every cleared extreme/insane demon (Bloodbath, ACU, Cataclysm, Denouement) |
+| 🎯 **Run tracker** | Current attempt, next target, and every cleared extreme/insane demon |
 | 🎬 **EON recordings** | POV and stream recordings of the run, side by side, in a custom dark-themed video player |
 | 🧊 **Icon showcase** | Every unlocked form — cube, ship, ball, UFO, wave, robot, spider, swing, jetpack — rendered live via the GDBrowser icon API |
+
+## 🎬 The run, from both sides
+
+<table>
+<tr>
+<td width="65%">
+
+[![BANANCHIKIREAL POV](public/media/eon-bananchikireal-pov.jpg)](https://github.com/BANANCHIKIREAL/eon-fan-site-media/releases/download/v1-eon-recordings/eon-bananchikireal-pov.mp4)
+
+**BANANCHIKIREAL POV** — recorded by the site's author
+
+</td>
+<td width="35%">
+
+[![Stream POV](public/media/eon-stream-pov.jpg)](https://github.com/BANANCHIKIREAL/eon-fan-site-media/releases/download/v1-eon-recordings/eon-stream-pov.mp4)
+
+**Stream POV** — from [@nahbro003](https://www.tiktok.com/@nahbro003)'s stream
+
+</td>
+</tr>
+</table>
 
 ## 🛠 Stack
 
