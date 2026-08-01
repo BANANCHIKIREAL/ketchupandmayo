@@ -1,4 +1,5 @@
 import "../styles.css";
+import { VercelAnalytics } from "./components/VercelAnalytics";
 import { LEVELS } from "./site-data";
 
 const currentRun = LEVELS[0];
@@ -23,7 +24,10 @@ export default function RootLayout({ children }) {
         />
         <link rel="apple-touch-icon" href="/assets/cube.png?v=1" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <VercelAnalytics />
+      </body>
     </html>
   );
 }
