@@ -1,10 +1,13 @@
+const ACCENT_COLOR = 0xd8ff3e;
+
 export async function pingVisit() {
   const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
   if (!webhookUrl) return;
 
-  const time = new Date().toLocaleString("ru-RU", {
+  const now = new Date();
+  const time = now.toLocaleString("ru-RU", {
     timeZone: "Europe/Moscow",
-    dateStyle: "short",
+    dateStyle: "long",
     timeStyle: "medium",
   });
 
@@ -12,7 +15,17 @@ export async function pingVisit() {
     await fetch(webhookUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ content: `Кто-то зашёл на сайт — ${time} (МСК)` }),
+      body: JSON.stringify({
+        embeds: [
+          {
+            title: "👀 Новый визит на сайт",
+            color: ACCENT_COLOR,
+            fields: [{ name: "Время (МСК)", value: time, inline: false }],
+            footer: { text: "ketchupandmayo.vercel.app" },
+            timestamp: now.toISOString(),
+          },
+        ],
+      }),
       signal: AbortSignal.timeout(3000),
     });
   } catch {
