@@ -3,6 +3,7 @@ name: Deploy Notification
 on:
   push:
     branches: [master]
+  workflow_dispatch:
 
 jobs:
   notify:
@@ -11,9 +12,9 @@ jobs:
       - name: Send Discord notification
         env:
           DISCORD_DEPLOY_WEBHOOK_URL: ${{ secrets.DISCORD_DEPLOY_WEBHOOK_URL }}
-          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-          COMMIT_AUTHOR: ${{ github.event.head_commit.author.name }}
-          COMMIT_URL: ${{ github.event.head_commit.url }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message || 'Ручной запуск' }}
+          COMMIT_AUTHOR: ${{ github.event.head_commit.author.name || github.actor }}
+          COMMIT_URL: ${{ github.event.head_commit.url || format('https://github.com/{0}/commit/{1}', github.repository, github.sha) }}
           COMMIT_SHA: ${{ github.sha }}
         run: |
           if [ -z "$DISCORD_DEPLOY_WEBHOOK_URL" ]; then
