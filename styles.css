@@ -1912,19 +1912,25 @@ footer > a:hover {
 
 .footer-social {
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px 10px;
-  margin-top: 4px;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
 }
 
 .footer-social a,
-.footer-social span {
+.footer-discord {
+  display: inline-flex;
   color: var(--dim);
   transition: color 0.2s ease;
 }
 
 .footer-social a:hover {
   color: var(--acid);
+}
+
+.footer-social svg {
+  width: 15px;
+  height: 15px;
 }
 
 .reveal {
