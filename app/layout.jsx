@@ -1,6 +1,7 @@
 import "../styles.css";
 import { VercelAnalytics } from "./components/VercelAnalytics";
 import { VercelSpeedInsights } from "./components/VercelSpeedInsights";
+import { pingVisit } from "./lib/visit-ping";
 import { LEVELS } from "./site-data";
 
 const currentRun = LEVELS[0];
@@ -29,7 +30,9 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  await pingVisit();
+
   return (
     <html lang="ru">
       <head>
