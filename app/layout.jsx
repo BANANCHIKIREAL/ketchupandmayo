@@ -1,5 +1,6 @@
 import "../styles.css";
 import { VercelAnalytics } from "./components/VercelAnalytics";
+import { VercelSpeedInsights } from "./components/VercelSpeedInsights";
 import { LEVELS } from "./site-data";
 
 const currentRun = LEVELS[0];
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <VercelAnalytics />
+        <VercelSpeedInsights />
       </body>
     </html>
   );
