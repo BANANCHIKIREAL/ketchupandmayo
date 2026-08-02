@@ -24,7 +24,7 @@ html {
   scroll-padding-top: 86px;
   overflow-x: hidden;
   background: var(--bg);
-  cursor: url("/assets/cursor-wave.png") 48 22, auto;
+  cursor: url("/assets/cursor-wave.png") 14 6, auto;
 }
 
 body {
